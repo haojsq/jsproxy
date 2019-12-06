@@ -29,7 +29,10 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        [location.host]: 1,
+        'b.007.workers.dev': 1,
+        'b.hehe.workers.dev': 1,
+        'b.lulu.workers.dev': 1,
+        'b.jsproxy.workers.dev': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
